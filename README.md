@@ -16,8 +16,9 @@ Command to export the Dabase in mysql
 -------------------------
 Alternative solution to import and create the database.
 
- 1.   create database YourDatabaseName;
- 2.   use YourDatabaseName;
- 3.   source path/to/YourDatabase.sql;
+ 1.   mysql -u root -p
+ 2.   create database YourDatabaseName;
+ 3.   use YourDatabaseName;
+ 4.   source path/to/YourDatabase.sql;
 
 ----------------------
