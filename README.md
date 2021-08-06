@@ -11,7 +11,7 @@ Command to import the Dabase in mysql
 Command to export the Dabase in mysql
 **To make easy to export the database use the path mysql/bin
 **mysql/bin>**
-  mysql -u root -p DatabaseName > CreateDatabaseName.sql
+  mysqldump -u root -p DatabaseName > CreateDatabaseName.sql
 
 -------------------------
 Alternative solution to import and create the database.
@@ -22,3 +22,7 @@ Alternative solution to import and create the database.
  4.   source path/to/YourDatabase.sql;
 
 ----------------------
+Alternative solution to import and Export the database in **lando**.
+
+lando db-import file_name.sql
+lando db-export file_name.sql
