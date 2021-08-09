@@ -26,3 +26,21 @@ Alternative solution to import and Export the database in **lando**.
 
 lando db-import file_name.sql
 lando db-export file_name.sql
+
+==================================================================================================================================================================
+
+Useful command for UBUNTU OS
+
+1.  sudo means superUser, some command have run with sudo.
+2.  sudo servies apache2 stop/start
+3.  sudo servies mysql stop/start
+4.  sudo /opt/lampp/lampp stop/start
+5.  sudo /etc/init.d/apache2 start/stop
+6.  sudo /etc/init.d/mysql start/stop
+7.  sudo apachectl start/stop
+8.  sudo systemctl start/stop apache2.service
+
+=================================================================================================================================================================
+
+Using XAMPP in LAMPP for UBUNTU
+
