@@ -30,6 +30,7 @@ Alternative solution to import and create the database.
 Alternative solution to import and Export the database in **lando**.
 
 ->  lando db-import file_name.sql
+
 ->  lando db-export file_name.sql
 
 ==================================================================================================================================================================
